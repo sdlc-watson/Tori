@@ -1,0 +1,19 @@
+# IBM Cloud credentials
+WATSON_API_KEY=     # Your IBM Watson API key. Used for authenticating API requests to IBM Watson services.
+IBM_WATSON_URL=     # The base URL of the IBM Watson service instance you're using. 
+WATSON_PROJECT_ID=  # The specific project ID associated with your IBM Watson service instance, used to identify your Watson project.
+
+# Slack credentials
+SLACK_BOT_TOKEN=           # Your Slack bot token. Used for authenticating the bot in your Slack workspace.
+SLACK_APP_TOKEN=           # The token for your Slack app. Allows your app to interact with Slack's APIs.
+SLACK_NOTIFICATION_CHANNEL= # The Slack channel name where notifications will be sent. 
+
+# Teams credentials
+TEAMS_WEBHOOK_URL=         # The URL of the Microsoft Teams webhook used to send notifications to a specific Teams channel.
+
+# Postgres credentials
+POSTGRES_DB=               # The name of the PostgreSQL database your application will connect to.
+POSTGRES_USER=             # The PostgreSQL user that has access to the specified database.
+POSTGRES_PASSWORD=         # The password for the PostgreSQL user.
+POSTGRES_HOST=             # The hostname or IP address where the PostgreSQL server is running. Example: localhost or an IP address.
+POSTGRES_PORT=             # The port number on which the PostgreSQL server is running. Default is usually 5432.
